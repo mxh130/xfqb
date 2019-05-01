@@ -5,29 +5,42 @@
 	<key>items</key>
 	<array>
 		<dict>
-			<key>asset</key>
+			<key>assets</key>
 			<array>
 				<dict>
-                    <key>kind</key>
-                    <string>software-package</string>
-                    <key>url</key>
-                    <string>http://43.255.28.54/xfqb.ipa</string>
-                </dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>http://43.255.28.54/xfqb.ipa</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string></string>
+				</dict>
 			</array>
-            
-            
-            <key>metadata</key>
-            <dict>
-                    <key>bundle-identifier</key>
-                    <string>com.jrapp.jr</string>
-                    <key>bundle-version</key>
-                    <string>1.0.0</string>
-                    <key>kind</key>
-                    <string>software</string>
-                    <key>title</key>
-                    <string>信封钱包</string>
-            </dict>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.jrapp.jr</string>
+				<key>bundle-version</key>
+				<string>1.0.0</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>title</key>
+				<string>信封钱包</string>
+			</dict>
 		</dict>
 	</array>
 </dict>
-</plist>
